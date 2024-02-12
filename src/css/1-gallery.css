@@ -1,21 +1,38 @@
-.header {
-  padding: 20px 0;
-}
-
-.nav-list {
+.gallery {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  width: 1440px;
+  height: 696px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 16px;
+  column-gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+li {
+  list-style-type: none;
+  text-decoration: none;
+  width: 360px;
+  height: 200px;
+  border: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+img {
+  width: 360px;
+  height: 200px;
+}
+
+li :hover {
+  transform: scale(1.04);
+  cursor: url('../images/Vector.png'), auto;
+}
+
+.modalWindow {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
