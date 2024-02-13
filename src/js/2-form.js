@@ -13,7 +13,8 @@ function readFormData(event) {
 }
 
 form.addEventListener('input', (event) => {
-    const data = readFormData(event.currentTarget);
+  const data = readFormData(event.currentTarget);
+  
     const jsonData = JSON.stringify(data);
     localStorage.setItem(STORAGE_KEY, jsonData);
   
