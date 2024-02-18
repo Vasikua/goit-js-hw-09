@@ -28,7 +28,7 @@ form.addEventListener('input', (event) => {
     form.message.value = data.message;
  }
  catch (error) {
-     console.log('Local storage is empty')
+     console.log('Local storage reading error')
 }  
 
 form.addEventListener('submit', (event) => {
